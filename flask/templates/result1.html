@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+
+    {% for key, value in results.items() %}
+        {# This is a Jinja2 comment and will not show in the browser #}
+        <h1>{{ key }}</h1>
+        <h2>{{ value }}</h2>
+    {% endfor %}
+
+</body>
+</html>
